@@ -30,7 +30,7 @@ function IphoneDate() {
     <div className='date-wrapper'>
         <div className='month'>{currentMonth}</div>
         <div className='day-of-week'>{currentDayOfWeek}</div>
-        <div className='day'>{currentDayOfMonth}</div>
+        <div className='day-of-month'>{currentDayOfMonth}</div>
     </div>
   )
 }
