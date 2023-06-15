@@ -1,0 +1,10 @@
+#result {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 22vh;
+}
+#result > span {
+  font-size: 80px;
+  padding-right: 50px
+}

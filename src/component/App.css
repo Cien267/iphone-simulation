@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.wrapper {
+  width: 50vh;
+  height: 95vh;
+  background-color: black;
+  background: url(../../public/images/Iphone\ Wallpaper\ _\ Anime\ _\ Background\ _\ 2020\ _\ HD\ Wallpapwer\ _\ Iphone\ _\ IOS\ _\ IOS14\ _\ Wallpaper.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}

@@ -1,0 +1,19 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.time {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.connection-info {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding-right: 20px;
+}

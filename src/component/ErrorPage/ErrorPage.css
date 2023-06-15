@@ -1,0 +1,12 @@
+#error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.oop {
+  font-size: 80px
+}
