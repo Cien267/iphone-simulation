@@ -21,3 +21,86 @@
   color: black;
   font-size: calc(40px + 2vmin)
 }
+
+
+.face-time-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.face-time-icon {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../../../../../public/images/facetime.svg);
+}
+.face-time-app-name {
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.calendar-icon {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.calendar-icon .day-of-week {
+  color: red;
+  font-size: 15px;
+}
+
+.calendar-icon .day-of-month {
+  color: black;
+  font-size: 40px;
+}
+.calendar-app-name {
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.photos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photos-icon {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../../../../../public/images/photos.svg);
+}
+.photos-app-name {
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.camera-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.camera-icon {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../../../../../public/images/camera.svg);
+}
+.camera-app-name {
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}

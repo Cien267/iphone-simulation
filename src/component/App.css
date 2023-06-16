@@ -16,9 +16,10 @@
   width: 50vh;
   height: 95vh;
   background-color: black;
-  background: url(../../public/images/Iphone\ Wallpaper\ _\ Anime\ _\ Background\ _\ 2020\ _\ HD\ Wallpapwer\ _\ Iphone\ _\ IOS\ _\ IOS14\ _\ Wallpaper.jpeg) no-repeat center center fixed;
+  background: url(../../public/images/wallpaper.jpeg) no-repeat center center fixed;
   background-size: cover;
   border-radius: 50px;
+  border: 10px solid black
 }
 
 .App-link {

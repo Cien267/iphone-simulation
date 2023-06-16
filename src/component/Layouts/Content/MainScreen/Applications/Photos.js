@@ -2,7 +2,10 @@ import './Application.css'
 
 function Photos() {
   return (
-    <h3>Photos</h3>
+    <div className='photos-wrapper'>
+      <div className='photos-icon'></div>
+      <div className='photos-app-name'>Photos</div>
+    </div>
   )
 }
 

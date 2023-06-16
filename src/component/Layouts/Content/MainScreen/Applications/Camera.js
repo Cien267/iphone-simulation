@@ -2,7 +2,10 @@ import './Application.css'
 
 function Camera() {
   return (
-    <h3>Camera</h3>
+    <div className='camera-wrapper'>
+      <div className='camera-icon'></div>
+      <div className='camera-app-name'>Camera</div>
+    </div>
   )
 }
 
