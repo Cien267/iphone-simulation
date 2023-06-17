@@ -7,48 +7,55 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 15px;
-  padding: 20px;
+  padding: 25px;
 }
 
+.weather-widget-wrapper {
+  background: linear-gradient(to right, #3c70d1 0%, #63a7b8 100%);
+  gap:5px
+}
+.weather-widget-wrapper .temperature {
+  font-size: 50px
+}
 .month {
   color: gray;
+  font-size: 20px
 }
 .day-of-week {
   color: red;
-  font-size: calc(12px + 2vmin)
+  font-size: 28px
 }
 .day-of-month {
   color: black;
-  font-size: calc(40px + 2vmin)
+  font-size: 50px
 }
 
 
-.face-time-wrapper {
+.app-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.face-time-icon {
+
+.app-wrapper:hover {
+  cursor: pointer;
+}
+
+.app-icon {
   width: 70px;
   height: 70px;
+  background-size: contain
+}
+.face-time-icon {
   background-image: url(../../../../../../public/images/facetime.svg);
 }
-.face-time-app-name {
+.app-name {
   color: white;
   font-size: 14px;
   padding-top: 5px;
 }
-
-.calendar-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .calendar-icon {
-  width: 70px;
-  height: 70px;
   background-color: white;
   border-radius: 15px;
   display: flex;
@@ -65,42 +72,77 @@
   color: black;
   font-size: 40px;
 }
-.calendar-app-name {
-  color: white;
-  font-size: 14px;
-  padding-top: 5px;
-}
-
-.photos-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .photos-icon {
-  width: 70px;
-  height: 70px;
   background-image: url(../../../../../../public/images/photos.svg);
 }
-.photos-app-name {
-  color: white;
-  font-size: 14px;
-  padding-top: 5px;
+.camera-icon {
+  background-image: url(../../../../../../public/images/camera.svg);
 }
 
-.camera-wrapper {
+.settings-icon {
+  background-image: url(../../../../../../public/images/settings.svg);
+}
+
+.files-icon {
+  background-image: url(../../../../../../public/images/files.svg);
+}
+.apple-tv-icon {
+  background-image: url(../../../../../../public/images/apple-tv.svg);
+}
+.apple-store-icon {
+  background-image: url(../../../../../../public/images/app-store.svg);
+}
+.instagram-icon {
+  background-image: url(../../../../../../public/images/instagram.svg);
+}
+.facebook-icon {
+  background-image: url(../../../../../../public/images/facebook.svg);
+}
+.messenger-icon {
+  background-image: url(../../../../../../public/images/messenger.svg);
+  
+}
+.twitter-icon {
+  background-image: url(../../../../../../public/images/twitter.svg);
+}
+.calculator-icon {
+  background-image: url(../../../../../../public/images/calculator.svg);
+}
+.weather-app-icon {
+  background-image: url(../../../../../../public/images/weather.svg);
+}
+.notes-icon {
+  background-image: url(../../../../../../public/images/notes.svg);
+}
+.health-icon {
+  background-image: url(../../../../../../public/images/health.svg);
+}
+.ios-message-icon {
+  background-image: url(../../../../../../public/images/ios-message.svg);
+}
+.mail-icon {
+  background-image: url(../../../../../../public/images/mail.svg);
+}
+.safari-icon {
+  background-image: url(../../../../../../public/images/safari.svg);
+}
+.my-shortcuts-icon {
+  background-image: url(../../../../../../public/images/my-shortcuts.svg);
+}
+.search-icon {
+  padding-right: 8px;
+  font-size: 13px;
+}
+.search-wrapper {
+  background-color:rgba(51, 43, 50, 0.5);
+  height: 40px;
+  width:100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  border-radius: 20px;
 }
-.camera-icon {
-  width: 70px;
-  height: 70px;
-  background-image: url(../../../../../../public/images/camera.svg);
-}
-.camera-app-name {
-  color: white;
-  font-size: 14px;
-  padding-top: 5px;
+.search-wrapper > div {
+  padding-bottom: 3px;
+  font-weight: 600;
 }

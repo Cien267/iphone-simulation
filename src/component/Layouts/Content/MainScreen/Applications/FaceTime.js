@@ -1,10 +1,10 @@
-import './Application.css'
+import "./Application.css"
 
 function FaceTime() {
   return (
-    <div className='face-time-wrapper'>
-      <div className='face-time-icon'></div>
-      <div className='face-time-app-name'>FaceTime</div>
+    <div className="app-wrapper">
+      <div className="face-time-icon app-icon"></div>
+      <div className="app-name">FaceTime</div>
     </div>
   )
 }

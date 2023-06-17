@@ -1,10 +1,10 @@
-import './Application.css'
+import "./Application.css"
 
 function Photos() {
   return (
-    <div className='photos-wrapper'>
-      <div className='photos-icon'></div>
-      <div className='photos-app-name'>Photos</div>
+    <div className="app-wrapper">
+      <div className="photos-icon app-icon"></div>
+      <div className="app-name">Photos</div>
     </div>
   )
 }

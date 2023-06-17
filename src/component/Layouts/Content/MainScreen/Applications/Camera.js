@@ -1,10 +1,10 @@
-import './Application.css'
+import "./Application.css"
 
 function Camera() {
   return (
-    <div className='camera-wrapper'>
-      <div className='camera-icon'></div>
-      <div className='camera-app-name'>Camera</div>
+    <div className="app-wrapper">
+      <div className="camera-icon app-icon"></div>
+      <div className="app-name">Camera</div>
     </div>
   )
 }
